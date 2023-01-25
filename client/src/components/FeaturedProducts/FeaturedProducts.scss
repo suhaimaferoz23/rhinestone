@@ -10,15 +10,16 @@
     h1 {
       flex: 2;
       text-transform: capitalize;
+      color: rgb(19 78 74);
     }
 
-    p{
-      flex:3;
-      color:gray
+    p {
+      flex: 3;
+      color: rgb(19 78 74);
     }
   }
 
-  .bottom{
+  .bottom {
     display: flex;
     justify-content: center;
     gap: 50px;

@@ -9,7 +9,7 @@ const Footer = () => {
           <h1>Categories</h1>
           <span>Women</span>
           <span>Men</span>
-          <span>Shoes</span>
+
           <span>Accessories</span>
           <span>New Arrivals</span>
         </div>
@@ -17,7 +17,7 @@ const Footer = () => {
           <h1>Links</h1>
           <span>FAQ</span>
           <span>Pages</span>
-          <span>Stores</span>
+
           <span>Compare</span>
           <span>Cookies</span>
         </div>
@@ -42,7 +42,7 @@ const Footer = () => {
       </div>
       <div className="bottom">
         <div className="left">
-          <span className="logo">Lamastore</span>
+          <span className="logo">RHINESTONE.</span>
           <span className="copyright">
             © Copyright 2023. All Rights Reserved
           </span>

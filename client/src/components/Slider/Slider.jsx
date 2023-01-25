@@ -7,9 +7,10 @@ const Slider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const data = [
-    "https://images.pexels.com/photos/1549200/pexels-photo-1549200.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    "https://images.pexels.com/photos/949670/pexels-photo-949670.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    "https://images.pexels.com/photos/837140/pexels-photo-837140.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "https://i.ibb.co/BrY1pQv/15.jpg",
+    "https://i.ibb.co/rpW4DW0/n5.jpg",
+    "https://i.ibb.co/R9f4N54/pexels-pnw-production-9218622.jpg",
+
   ];
 
   const prevSlide = () => {
@@ -21,10 +22,11 @@ const Slider = () => {
 
   return (
     <div className="slider">
-      <div className="container" style={{transform:`translateX(-${currentSlide * 100}vw)`}}>
+      <div className="container" style={{ transform: `translateX(-${currentSlide * 100}vw)` }}>
         <img src={data[0]} alt="" />
         <img src={data[1]} alt="" />
         <img src={data[2]} alt="" />
+
       </div>
       <div className="icons">
         <div className="icon" onClick={prevSlide}>

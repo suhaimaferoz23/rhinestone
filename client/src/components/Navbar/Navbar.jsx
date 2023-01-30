@@ -26,10 +26,10 @@ const Navbar = () => {
             <Link className="link" to="/">Homepage</Link>
           </div>
           <div className="item">
-            <Link className="link" to="/products/1">Women</Link>
+            <Link className="link" to="/products/6">Hijab</Link>
           </div>
           <div className="item">
-            <Link className="link" to="/products/2">Men</Link>
+            <Link className="link" to="/products/7">Abaya</Link>
           </div>
 
         </div>
